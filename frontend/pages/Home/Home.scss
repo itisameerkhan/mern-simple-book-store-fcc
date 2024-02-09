@@ -1,0 +1,53 @@
+.home 
+{
+    padding:4rem 2rem;
+}
+.title 
+{
+    margin-bottom: 1rem;
+}
+.books-table 
+{
+    width: 100%;
+    border:2px solid #ddd;
+    border-collapse: collapse;
+
+    td, th {
+        border:1px solid #ddd;
+        padding: 8px;
+    }
+    tr {
+        &:nth-child(even) {
+            background-color: #303030;
+        }
+        &:hover {
+            background-color: #353535;
+        }
+    }
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #101010;
+    }
+}
+.operations 
+{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+     
+    a {
+        color:white;
+    }
+    span {
+        cursor: pointer;
+        padding: 3px;
+        border-radius: 50%;
+
+        &:hover 
+        {
+            background-color: rgb(89, 89, 89);
+        }
+    }
+}
