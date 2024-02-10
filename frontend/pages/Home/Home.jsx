@@ -20,7 +20,12 @@ const Home = () => {
 
   return (
     <div className="home">
-      <h1 className='title'>Books</h1>
+      <div className="home-t">
+        <h1 className='title'>Books</h1>
+        <Link to={'/books/create'}>
+        <span className="material-symbols-outlined">add_box</span>
+        </Link>
+      </div>
       <table className='books-table'>
         <tr>
           <th>No</th>

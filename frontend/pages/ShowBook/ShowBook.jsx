@@ -18,7 +18,8 @@ const ShowBook = () => {
     getData();
   },[]);
   
-  if(book == {}) return <Loader />
+  if(Object.keys(book).length === 0 && book.constructor === Object) return <Loader />
+
   return (
     <div className='show-book'>
       <h1 className='title'>Show Book</h1>
