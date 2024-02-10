@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './Home.scss';
 import { Link } from 'react-router-dom';
+import Loader from '../../components/Loader/Loader';
 
 const Home = () => {
   
@@ -14,6 +15,8 @@ const Home = () => {
     }
     getData();
   },[]);
+
+  if(!books) return <Loader />
 
   return (
     <div className="home">

@@ -1,0 +1,32 @@
+.show-book 
+{
+    display: grid;
+    place-items: center;
+    height: 80vh;
+}
+.book-details
+{
+    height: 50vh;
+    width: 50%;
+    border:2px solid #f2f2f2;
+    padding:2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    div 
+    {
+        display: flex;
+        gap: 20px;
+
+        .a 
+        {
+            font-size: 1.3rem;
+        }
+        .b 
+        {
+            color:#d2d2d2;
+        }
+    }
+}
