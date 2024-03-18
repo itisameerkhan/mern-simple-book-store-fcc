@@ -8,7 +8,7 @@ BookHaven is a comprehensive MERN stack application designed to manage book info
 
 * **Frontend**: ReactJS, React Router DOM, Sass
 
-* **Backend:** Express, Node.js, MongoDB Cloud
+* **Backend:** Express, Node.js, MongoDB Cloud.
 
 <p align="center">
   <a href="https://skillicons.dev">
